@@ -1,0 +1,70 @@
+* { box-sizing: border-box;}
+.header {
+	background-image:url("turcoaz.png");
+	height:100px;
+}
+.header h1 {
+	text-align: center;
+	color: black;
+	padding-top: 15px;
+}
+a.menu {
+	text-decoration: none;
+	color: white;
+	background-color:Blue;
+	padding: 18px 15px 18px 15px;
+}
+
+a.menu:hover {
+	text-decoration: none;
+	color: black;
+	background-color:Black;
+	padding: 8px 5px 8px 5px;
+}
+
+
+.column {
+	float: left;
+	padding: 0px 5px 0px 10px;
+	text-aligsn: justify;
+}
+.sidebar {
+	width: 25%;
+	background-color:white;
+}
+.sidebar img {
+	width:100%;
+	margin:auto;
+}
+.main {
+	width: 75%;
+	background-color:white;
+}
+.row {
+	content:"";
+	display: table;
+	clear: both;
+}
+.footer {
+	background-color:blue;
+	padding: 15px;
+	color: Azure;
+   }
+.feature {
+	background-color:LightGray;
+	width: 33%;
+}
+.feature img {
+	width: 85%;
+	margin: auto;
+}
+.feature p {
+	text-align: center;
+	color: blue;
+}
+.features {
+	width:100%;
+}
+.features h3 {
+	text-align: center;
+}
